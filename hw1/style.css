@@ -1,0 +1,44 @@
+#header {
+  font-size: 1.6rem;
+  padding: 10 px;
+  background-color: rgba(243, 243, 241, 0.882);
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  background-image: url("pics/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#content {
+  font-size: 1.6rem;
+  padding: 20px;
+  background-color: rgba(243, 243, 241, 0.882);
+  text-align: center;
+}
+.links {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  width: 150;
+  height: 100px;
+  border-radius: 10px;
+  background-color: rgba(243, 243, 241, 0.882);
+  margin-bottom: 40px;
+}
+.imageFlex {
+  display: flex;
+  justify-content: center;
+}
+#CSpic {
+  width: 1000px;
+}
+
+#source {
+      font-size: 1 rem;
+  padding: 10px;
+  background-color: rgba(243, 243, 241, 0.882);
+  text-align: center;
+}
