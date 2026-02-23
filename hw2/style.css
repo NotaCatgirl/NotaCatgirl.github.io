@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  background-image: url("image/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  margin: 0 auto;
+}
+#header {
+  font-size: 1.6rem;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.49);
+}
+#screen {
+  font-size: 4rem;
+  background-color: rgba(255, 255, 255, 0.49);
+  padding: 20px;
+}
+#spinTitle {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+#control {
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.49);
+  padding: 20px;
+}
+#betNum {
+  font-size: 1.4rem;
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+}
+#spinBtn {
+  font-size: 1.5rem;
+  width: 150;
+  height: 50px;
+  border-radius: 10px;
+}
+#resetBtn {
+  font-size: 1.5rem;
+  width: 150;
+  height: 50px;
+  border-radius: 10px;
+}
+#wonImg,
+#lostImg {
+  max-width: 300px;
+  max-height: 300px;
+  margin: 20px;
+}

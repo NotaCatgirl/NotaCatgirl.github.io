@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW2 Slot Machine</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1>The Best Slot Machine</h1>
+      <h3>Earn millions by betting on same symbols appearing!</h3>
+    </header>
+
+    <div id = "screen">
+        <h2 id="spinTitle">Spin Away!</h2>
+        <span id="reel1"></span>
+        <span id="reel2"></span>
+        <span id="reel3"></span>
+    </div>
+    <br>
+
+ <div id="control">
+        Bet Amount:
+        <input id="betNum" type="text" size="10">
+        <button id ="spinBtn"> Spin! </button>
+        <button id="resetBtn"> Reset </button>
+        <h1 id = "spinResult"></h1>
+        <img src="image/getRich.avif" alt="won" id="wonImg">
+        <img src="image/loseMoney.jpg" alt="lost" id="lostImg">
+        <br>
+
+        Money Left: 
+        <span id = "moneyLeft"> </span>
+        <br>
+        <br>
+
+        Money Won: 
+        <span id = "won"> </span>
+        <br>
+        Money Lost: 
+        <span id = "lost"> </span>
+        
+    </div>
+  </body>
+</html>
