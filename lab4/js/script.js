@@ -38,7 +38,7 @@ async function displayStates() {
     } else {
       alert(err.message);
     }
-  } //catch
+  } 
 }
 
 async function updateCounty() {
